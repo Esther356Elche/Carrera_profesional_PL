@@ -13,12 +13,7 @@ fecha_fin = pd.to_datetime(config["fecha_fin"]) + pd.Timedelta(hours=23, minutes
 
 # Configura tu conexión
 conn_str = (
-    "Driver={SQL Server};"
-    "Server=172.26.178.12;"
-    "Database=SE;"
-    "Uid=ecandela356;"
-    "Pwd=332@Alex356;"
-    "Trusted_Connection=no;"
+*
 )
 conn = pyodbc.connect(conn_str)
 

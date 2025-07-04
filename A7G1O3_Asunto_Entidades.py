@@ -18,12 +18,7 @@ fecha_fin_2024 = fecha_fin - pd.DateOffset(years=1)
 
 # --- Conexión a la base de datos
 conn_str = (
-    "Driver={SQL Server};"
-    "Server=172.26.178.12;"
-    "Database=SE;"
-    "Uid=ecandela356;"
-    "Pwd=332@Alex356;"
-    "Trusted_Connection=no;"
+*
 )
 con = pyodbc.connect(conn_str)
 
